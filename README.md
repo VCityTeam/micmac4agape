@@ -1,6 +1,8 @@
 # MicMac
 
-- For **MicMac v2 (MMVII)** click **[HERE](https://github.com/micmac-V2/MMVII)**. 
+- For **MicMac v2 (MMVII)** click **[HERE](https://github.com/micmac-V2/MMVII)**.
+
+> **Note:** This repository is a dedicated fork of the official MicMac project from IGN ([micmacIGN/micmac](https://github.com/micmacIGN/micmac)), maintained for the French Agape ANR project. See https://agape-anr.github.io/ for project details.
 
 **Table of Contents**
 - [Description](#description)
@@ -22,6 +24,8 @@
 
 # Description
 **MicMac** is a free open-source photogrammetric software for 3D reconstruction under development at the National Institute of Geographic and Forestry Information - French Mapping Agency - (**[IGN](https://www.ign.fr/)**) and the National School of Geographic Sciences (**[ENSG](https://ensg.eu/)**) withing the **[LASTIG](https://www.umr-lastig.fr/)** lab. **MicMac** is distributed under **[CECILL-B](LICENSE.md)** license since 2007.
+
+This repository is a dedicated fork of the official MicMac source tree from IGN, adapted and maintained for the French Agape ANR project: https://agape-anr.github.io/.
 
 # Prerequisites
 Some external tools need to be present on your system for **MicMac** to run properly:
@@ -54,11 +58,11 @@ Under Linux (Ubuntu) distribution the installation procedure is as follows:
 	```
 - Clone the repository:
 	```bash
-	git clone https://github.com/micmacIGN/micmac.git
+	git clone https://github.com/micmac4agape/micmac4agape.git
 	```
 - Access the folder:
 	```bash
-	cd micmac
+	cd micmac4agape
 	```
 - Create a directory for building intermediate files and access it:
 	```bash
@@ -96,11 +100,11 @@ Under Windows the installation procedure is as follows:
    ```
 - Clone the repository:
 	```sh
-	git clone https://github.com/micmacIGN/micmac.git
+	git clone https://github.com/micmac4agape/micmac4agape.git
 	```
-- Access **micmac** folder:
+- Access **micmac4agape** folder:
 	```bash
-	cd micmac
+	cd micmac4agape
 	```
 - Create a directory for building intermediate files and access it:
 	```bash
@@ -145,11 +149,11 @@ Under macOS the installation procedure is as follows:
 	```
 - Clone the repository:
 	```bash
-	git clone https://github.com/micmacIGN/micmac.git
+	git clone https://github.com/micmac4agape/micmac4agape.git
 	```
 - Access the folder:
 	```bash
-	cd micmac
+	cd micmac4agape
 	```
 - Create a directory for building intermediate files and access it:
 	```bash

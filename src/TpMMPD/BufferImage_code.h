@@ -393,7 +393,9 @@ BufferImage<T>& BufferImage<T>::operator -= (BufferImage<T> const &img)
     int NC = _size.first;
     int NL = _size.second;
     int NC2,NL2;
-    img.Size(NC2,NL2);
+    std::pair<size_t,size_t> aSize2 = img.size();
+    NC2 = int(aSize2.first);
+    NL2 = int(aSize2.second);
     int nbBands2 = img.numBands();
     T* ptrLine = _data;
     const T* ptrLine2 = img.getPtr();
@@ -434,7 +436,9 @@ BufferImage<T>& BufferImage<T>::operator *= (BufferImage<T> const &img)
     int NC = _size.first;
     int NL = _size.second;
     int NC2,NL2;
-    img.Size(NC2,NL2);
+    std::pair<size_t,size_t> aSize2 = img.size();
+    NC2 = int(aSize2.first);
+    NL2 = int(aSize2.second);
     int nbBands2 = img.numBands();
     T* ptrLine = _data;
     const T* ptrLine2 = img.getPtr();
